@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreSpotlight/CoreSpotlight.h>
 
 //! Project version number for CSSearchQueryController.
 FOUNDATION_EXPORT double CSSearchQueryControllerVersionNumber;

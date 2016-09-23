@@ -10,10 +10,34 @@
 		D5FC0B4E1D93E815004FA797 /* CSSearchQueryController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FC0B441D93E814004FA797 /* CSSearchQueryController.framework */; };
 		D5FC0B531D93E815004FA797 /* CSSearchQueryControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC0B521D93E815004FA797 /* CSSearchQueryControllerTests.swift */; };
 		D5FC0B551D93E815004FA797 /* CSSearchQueryController.h in Headers */ = {isa = PBXBuildFile; fileRef = D5FC0B471D93E814004FA797 /* CSSearchQueryController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5FC0B651D93E866004FA797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC0B641D93E866004FA797 /* AppDelegate.swift */; };
+		D5FC0B671D93E866004FA797 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC0B661D93E866004FA797 /* ViewController.swift */; };
+		D5FC0B6A1D93E866004FA797 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FC0B681D93E866004FA797 /* Main.storyboard */; };
+		D5FC0B6C1D93E866004FA797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FC0B6B1D93E866004FA797 /* Assets.xcassets */; };
+		D5FC0B6F1D93E866004FA797 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5FC0B6D1D93E866004FA797 /* LaunchScreen.storyboard */; };
+		D5FC0B7A1D93E866004FA797 /* CSSearchQueryControllerExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC0B791D93E866004FA797 /* CSSearchQueryControllerExampleUITests.swift */; };
+		D5FC0B831D93E8CC004FA797 /* CSSearchQueryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC0B821D93E8CC004FA797 /* CSSearchQueryController.swift */; };
+		D5FC0B841D93EAB1004FA797 /* CSSearchQueryController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FC0B441D93E814004FA797 /* CSSearchQueryController.framework */; };
+		D5FC0B891D93F319004FA797 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FC0B881D93F319004FA797 /* CoreSpotlight.framework */; };
+		D5FC0B8B1D93F926004FA797 /* CSSearchableItemGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC0B8A1D93F926004FA797 /* CSSearchableItemGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		D5FC0B4F1D93E815004FA797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FC0B3B1D93E814004FA797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5FC0B431D93E814004FA797;
+			remoteInfo = CSSearchQueryController;
+		};
+		D5FC0B761D93E866004FA797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5FC0B3B1D93E814004FA797 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5FC0B611D93E866004FA797;
+			remoteInfo = CSSearchQueryControllerExample;
+		};
+		D5FC0B851D93EB42004FA797 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5FC0B3B1D93E814004FA797 /* Project object */;
 			proxyType = 1;
@@ -29,6 +53,19 @@
 		D5FC0B4D1D93E815004FA797 /* CSSearchQueryControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSSearchQueryControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5FC0B521D93E815004FA797 /* CSSearchQueryControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSSearchQueryControllerTests.swift; sourceTree = "<group>"; };
 		D5FC0B541D93E815004FA797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FC0B621D93E866004FA797 /* CSSearchQueryControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSSearchQueryControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FC0B641D93E866004FA797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5FC0B661D93E866004FA797 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5FC0B691D93E866004FA797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5FC0B6B1D93E866004FA797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5FC0B6E1D93E866004FA797 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5FC0B701D93E866004FA797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FC0B751D93E866004FA797 /* CSSearchQueryControllerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSSearchQueryControllerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5FC0B791D93E866004FA797 /* CSSearchQueryControllerExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSSearchQueryControllerExampleUITests.swift; sourceTree = "<group>"; };
+		D5FC0B7B1D93E866004FA797 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FC0B821D93E8CC004FA797 /* CSSearchQueryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSSearchQueryController.swift; sourceTree = "<group>"; };
+		D5FC0B881D93F319004FA797 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		D5FC0B8A1D93F926004FA797 /* CSSearchableItemGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSSearchableItemGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5FC0B891D93F319004FA797 /* CoreSpotlight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +85,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5FC0B5F1D93E866004FA797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FC0B841D93EAB1004FA797 /* CSSearchQueryController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FC0B721D93E866004FA797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +108,10 @@
 			children = (
 				D5FC0B461D93E814004FA797 /* CSSearchQueryController */,
 				D5FC0B511D93E815004FA797 /* CSSearchQueryControllerTests */,
+				D5FC0B631D93E866004FA797 /* CSSearchQueryControllerExample */,
+				D5FC0B781D93E866004FA797 /* CSSearchQueryControllerExampleUITests */,
 				D5FC0B451D93E814004FA797 /* Products */,
+				D5FC0B871D93F319004FA797 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +120,8 @@
 			children = (
 				D5FC0B441D93E814004FA797 /* CSSearchQueryController.framework */,
 				D5FC0B4D1D93E815004FA797 /* CSSearchQueryControllerTests.xctest */,
+				D5FC0B621D93E866004FA797 /* CSSearchQueryControllerExample.app */,
+				D5FC0B751D93E866004FA797 /* CSSearchQueryControllerExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				D5FC0B471D93E814004FA797 /* CSSearchQueryController.h */,
+				D5FC0B821D93E8CC004FA797 /* CSSearchQueryController.swift */,
 				D5FC0B481D93E814004FA797 /* Info.plist */,
 			);
 			path = CSSearchQueryController;
@@ -84,6 +143,37 @@
 				D5FC0B541D93E815004FA797 /* Info.plist */,
 			);
 			path = CSSearchQueryControllerTests;
+			sourceTree = "<group>";
+		};
+		D5FC0B631D93E866004FA797 /* CSSearchQueryControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				D5FC0B641D93E866004FA797 /* AppDelegate.swift */,
+				D5FC0B661D93E866004FA797 /* ViewController.swift */,
+				D5FC0B8A1D93F926004FA797 /* CSSearchableItemGenerator.swift */,
+				D5FC0B681D93E866004FA797 /* Main.storyboard */,
+				D5FC0B6B1D93E866004FA797 /* Assets.xcassets */,
+				D5FC0B6D1D93E866004FA797 /* LaunchScreen.storyboard */,
+				D5FC0B701D93E866004FA797 /* Info.plist */,
+			);
+			path = CSSearchQueryControllerExample;
+			sourceTree = "<group>";
+		};
+		D5FC0B781D93E866004FA797 /* CSSearchQueryControllerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5FC0B791D93E866004FA797 /* CSSearchQueryControllerExampleUITests.swift */,
+				D5FC0B7B1D93E866004FA797 /* Info.plist */,
+			);
+			path = CSSearchQueryControllerExampleUITests;
+			sourceTree = "<group>";
+		};
+		D5FC0B871D93F319004FA797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5FC0B881D93F319004FA797 /* CoreSpotlight.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +226,42 @@
 			productReference = D5FC0B4D1D93E815004FA797 /* CSSearchQueryControllerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D5FC0B611D93E866004FA797 /* CSSearchQueryControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FC0B7C1D93E866004FA797 /* Build configuration list for PBXNativeTarget "CSSearchQueryControllerExample" */;
+			buildPhases = (
+				D5FC0B5E1D93E866004FA797 /* Sources */,
+				D5FC0B5F1D93E866004FA797 /* Frameworks */,
+				D5FC0B601D93E866004FA797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5FC0B861D93EB42004FA797 /* PBXTargetDependency */,
+			);
+			name = CSSearchQueryControllerExample;
+			productName = CSSearchQueryControllerExample;
+			productReference = D5FC0B621D93E866004FA797 /* CSSearchQueryControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5FC0B741D93E866004FA797 /* CSSearchQueryControllerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5FC0B7F1D93E866004FA797 /* Build configuration list for PBXNativeTarget "CSSearchQueryControllerExampleUITests" */;
+			buildPhases = (
+				D5FC0B711D93E866004FA797 /* Sources */,
+				D5FC0B721D93E866004FA797 /* Frameworks */,
+				D5FC0B731D93E866004FA797 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5FC0B771D93E866004FA797 /* PBXTargetDependency */,
+			);
+			name = CSSearchQueryControllerExampleUITests;
+			productName = CSSearchQueryControllerExampleUITests;
+			productReference = D5FC0B751D93E866004FA797 /* CSSearchQueryControllerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,12 +275,24 @@
 					D5FC0B431D93E814004FA797 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = Q6BEQCNWYM;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					D5FC0B4C1D93E815004FA797 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = Q6BEQCNWYM;
 						ProvisioningStyle = Automatic;
+					};
+					D5FC0B611D93E866004FA797 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q6BEQCNWYM;
+						ProvisioningStyle = Automatic;
+					};
+					D5FC0B741D93E866004FA797 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Q6BEQCNWYM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5FC0B611D93E866004FA797;
 					};
 				};
 			};
@@ -164,6 +302,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D5FC0B3A1D93E814004FA797;
 			productRefGroup = D5FC0B451D93E814004FA797 /* Products */;
@@ -172,6 +311,8 @@
 			targets = (
 				D5FC0B431D93E814004FA797 /* CSSearchQueryController */,
 				D5FC0B4C1D93E815004FA797 /* CSSearchQueryControllerTests */,
+				D5FC0B611D93E866004FA797 /* CSSearchQueryControllerExample */,
+				D5FC0B741D93E866004FA797 /* CSSearchQueryControllerExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -191,6 +332,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5FC0B601D93E866004FA797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FC0B6F1D93E866004FA797 /* LaunchScreen.storyboard in Resources */,
+				D5FC0B6C1D93E866004FA797 /* Assets.xcassets in Resources */,
+				D5FC0B6A1D93E866004FA797 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FC0B731D93E866004FA797 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -198,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5FC0B831D93E8CC004FA797 /* CSSearchQueryController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +368,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5FC0B5E1D93E866004FA797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FC0B671D93E866004FA797 /* ViewController.swift in Sources */,
+				D5FC0B651D93E866004FA797 /* AppDelegate.swift in Sources */,
+				D5FC0B8B1D93F926004FA797 /* CSSearchableItemGenerator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5FC0B711D93E866004FA797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FC0B7A1D93E866004FA797 /* CSSearchQueryControllerExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -217,7 +394,36 @@
 			target = D5FC0B431D93E814004FA797 /* CSSearchQueryController */;
 			targetProxy = D5FC0B4F1D93E815004FA797 /* PBXContainerItemProxy */;
 		};
+		D5FC0B771D93E866004FA797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5FC0B611D93E866004FA797 /* CSSearchQueryControllerExample */;
+			targetProxy = D5FC0B761D93E866004FA797 /* PBXContainerItemProxy */;
+		};
+		D5FC0B861D93EB42004FA797 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5FC0B431D93E814004FA797 /* CSSearchQueryController */;
+			targetProxy = D5FC0B851D93EB42004FA797 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5FC0B681D93E866004FA797 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5FC0B691D93E866004FA797 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5FC0B6D1D93E866004FA797 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5FC0B6E1D93E866004FA797 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D5FC0B561D93E815004FA797 /* Debug */ = {
@@ -322,6 +528,7 @@
 		D5FC0B591D93E815004FA797 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Q6BEQCNWYM;
@@ -334,6 +541,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexruperez.CSSearchQueryController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +549,7 @@
 		D5FC0B5A1D93E815004FA797 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Q6BEQCNWYM;
@@ -360,6 +569,7 @@
 		D5FC0B5C1D93E815004FA797 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Q6BEQCNWYM;
 				INFOPLIST_FILE = CSSearchQueryControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,12 +582,67 @@
 		D5FC0B5D1D93E815004FA797 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Q6BEQCNWYM;
 				INFOPLIST_FILE = CSSearchQueryControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexruperez.CSSearchQueryControllerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D5FC0B7D1D93E866004FA797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q6BEQCNWYM;
+				INFOPLIST_FILE = CSSearchQueryControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexruperez.CSSearchQueryControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D5FC0B7E1D93E866004FA797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q6BEQCNWYM;
+				INFOPLIST_FILE = CSSearchQueryControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexruperez.CSSearchQueryControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D5FC0B801D93E866004FA797 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Q6BEQCNWYM;
+				INFOPLIST_FILE = CSSearchQueryControllerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexruperez.CSSearchQueryControllerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CSSearchQueryControllerExample;
+			};
+			name = Debug;
+		};
+		D5FC0B811D93E866004FA797 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Q6BEQCNWYM;
+				INFOPLIST_FILE = CSSearchQueryControllerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexruperez.CSSearchQueryControllerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CSSearchQueryControllerExample;
 			};
 			name = Release;
 		};
@@ -406,6 +671,22 @@
 			buildConfigurations = (
 				D5FC0B5C1D93E815004FA797 /* Debug */,
 				D5FC0B5D1D93E815004FA797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5FC0B7C1D93E866004FA797 /* Build configuration list for PBXNativeTarget "CSSearchQueryControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FC0B7D1D93E866004FA797 /* Debug */,
+				D5FC0B7E1D93E866004FA797 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5FC0B7F1D93E866004FA797 /* Build configuration list for PBXNativeTarget "CSSearchQueryControllerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5FC0B801D93E866004FA797 /* Debug */,
+				D5FC0B811D93E866004FA797 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
